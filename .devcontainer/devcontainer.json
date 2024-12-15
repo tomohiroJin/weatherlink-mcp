@@ -1,0 +1,28 @@
+{
+  "name": "Python DevContainer",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": "."
+  },
+  "settings": {
+    "python.defaultInterpreterPath": "/usr/local/bin/python",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "editor.formatOnSave": true
+  },
+  "extensions": [
+    "wmaurer.change-case",
+    "mhutchie.git-graph",
+    "streetsidesoftware.code-spell-checker",
+    "ms-vsliveshare.vsliveshare",
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "ms-toolsai.jupyter",
+    "donjayamanne.python-extension-pack",
+    "ms-python.black-formatter",
+    "ms-python.flake8",
+    "esbenp.prettier-vscode"
+  ],
+  "postCreateCommand": "pip install -r requirements.txt",
+  "remoteUser": "root"
+}
