@@ -22,6 +22,6 @@
       ]
     }
   },
-  "postCreateCommand": "pip install -r requirements.txt",
+  "postCreateCommand": "pip install --root-user-action=ignore -r requirements.txt",
   "remoteUser": "root"
 }
