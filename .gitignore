@@ -1,14 +1,36 @@
-# Byte-compiled / optimized / DLL files
+# --- python ---
 __pycache__/
 *.py[cod]
 
-# Virtual environment
+# --- virtual env ---
 .env/
 venv/
+.venv/
 
-# Test output
+# --- secrets ---
+.env
+.env.*
+
+# --- test ---
 .tox/
 .pytest_cache/
+htmlcov/
+coverage.xml
 
-# IDE / Editor settings
+# --- tooling cache ---
+.mypy_cache/
+.ruff_cache/
+.pyre/
+
+# --- build artifacts ---
+build/
+dist/
+*.egg-info/
+
+# --- docker ---
+docker-compose.override.yml
+
+# --- OS / editor ---
+.DS_Store
+.vscode/
 .idea/

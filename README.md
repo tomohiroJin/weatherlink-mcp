@@ -44,24 +44,6 @@
 
 このプロジェクトには、基本的な Python の文法と主要なデザインパターンを学習・参照できるサンプルが含まれています。
 
-### **リファレンスの内容**
-
-- `reference/basic`:
-  - **Python の基本文法**: 変数、関数、クラス、条件分岐、ループ、例外処理
-  - 各実装には詳細なテストとコメント付きのコードが含まれています
-- `reference/patterns`:
-  - **デザインパターンの実装例**:
-    - Strategy パターン
-    - Observer パターン
-    - Decorator パターン
-    - Factory パターン
-    - Template Method パターン
-
-### **サンプルの内容**
-
-- `reference/samples`
-  - fizzbuzz
-
 ## 使用方法
 
 ### **1. テストの実行**
